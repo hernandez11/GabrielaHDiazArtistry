@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Meow+Script&family=Mrs+Saint+Delafield&family=Sacramento&family=Sassy+Frass&display=swap');
+
+.album{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    padding: 10% 0;
+}
+
+.album__start__wrapper{
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.album:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.secondaryImage__wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+}
+
+.secondaryImage{
+    width: 44%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text__container{
+    padding: 5% 0;
+    margin: auto;
+}
+
+.textLine01{
+    font-family: Old Standard TT;
+    font-size: 15px;
+}
+
+.textLine02{
+    font-family: Old Standard TT;
+    font-size: 60px;
+    line-height: 74px;
+    text-decoration: underline;
+}
+
+.textLine03{
+    width: 275px;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 15px 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    /* white-space: nowrap; */
+}
+
+.album__end__wrapper{
+    position: relative;
+    width: 50vw;
+    height: auto;
+}
+
+.primaryImage{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* @media only screen and (max-width: 768px){
+    .album{
+        flex-direction: column;
+    }
+} */

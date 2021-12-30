@@ -42,8 +42,7 @@
 
 .home__body{
     position: relative;
-    background-color: darkcyan;
-    height: 75vh; /* you can use calc() function. */
+    height: 75vh;
     width: 100%;
     background-image: url('/src/home__hero.png');
     background-size: cover;

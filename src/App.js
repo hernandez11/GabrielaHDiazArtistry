@@ -17,7 +17,6 @@ function App() {
           <Route path='/Latest-Work' element={<LatestWork/>} />
           <Route path='/Contact' element={<Contact/>} />
         </Routes>
-        {/* <Footer /> */}
       </Router>
     </div>
   );

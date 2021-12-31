@@ -15,13 +15,13 @@ function Navbar() {
             <div className='navlink__container'>
                 <ul className='navlink__wrapper'>
                     {/* <li className='nav__item'>
-                        <NavLink exact to='/Featured' className='nav__link'>Featured</NavLink>
+                        <NavLink exact to='/Featured' className='nav__link'>FEATURED</NavLink>
                     </li> */}
                     <li className='nav__item'>
-                        <NavLink exact to='/Latest-Work' className='nav__link'>Latest Work</NavLink>
+                        <NavLink exact to='/Latest-Work' className='nav__link'>LATEST WORK</NavLink>
                     </li>                        
                     <li className='nav__item'>
-                        <NavLink exact to='/Contact' className='nav__link'>Contact</NavLink>
+                        <NavLink exact to='/Contact' className='nav__link'>CONTACT</NavLink>
                     </li>
                 </ul>
             </div>
